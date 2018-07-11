@@ -1,0 +1,339 @@
+@font-face {
+    font-family: school;
+    src: url('../fonts/school.otf');
+}
+@font-face {
+    font-family: south;
+    src: url('../fonts/south.ttf');
+}
+a{
+
+text-decoration: none;
+
+}
+input[type=button]{
+	padding: 10px 20px;
+	color: white;
+	background: #e73827;
+	box-shadow: 0;
+	border: none;
+	border-radius: 7px;
+	transition: 0.5s;
+}
+input[type=button]:hover{
+	background: #db5d51;
+}
+body{
+	font-family: Trebuchet MS;
+	background-image: url('../img/back.jpg');
+
+}
+/*  ACA VAN LOS IDS */
+#principal{
+width: 95%;
+margin-right: auto;
+margin-left: auto;
+margin-top: 0px;
+/*border: 8px solid #f5f5f5;
+border-style: dashed;*/
+box-shadow: 0px 0px 8px #888888;
+}
+
+/* Header */
+#header{
+	width: 100%;
+	height: 80px;
+	
+	
+	
+	background: rgba(248,80,50,1);
+background: -moz-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(248,80,50,1)), color-stop(50%, rgba(241,111,92,1)), color-stop(51%, rgba(246,41,12,1)), color-stop(71%, rgba(240,47,23,1)), color-stop(100%, rgba(231,56,39,1)));
+background: -webkit-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+background: -o-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+background: -ms-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+background: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=0 );
+
+}
+#header ul{
+	
+	
+	height: 42px;
+	
+}
+#header ul li{
+	display: inline-block;
+
+	height: 42px;
+
+	
+	
+	
+}
+#header div ul li a span{
+	
+	float: right;
+	margin-top: 8px;
+	margin-right: 5px;
+	transition: 0.5s;
+}
+
+#header div ul li a img{
+	
+
+	margin-top: 5px;
+	
+}
+
+#header ul li a {
+	color: white;
+	
+	font-family: school;
+	
+	padding: 15px;
+	
+	
+	
+}
+#header ul li a span:hover{
+	
+	color:#F6E206;
+	
+}
+#header div{
+	float: right;
+	margin-top: 8px;
+	margin-right: 15px;
+	
+	
+	
+}
+#header h1{
+	float: left;
+	font-family: south;
+	color: white;
+	margin-left: 50px;
+	margin-top: 2px;
+	font-size: 42px;
+	
+	
+
+}
+#contenido{
+	height: 1040px;
+	background-color: white;
+
+}
+#footer{
+ height: 120px;
+ background-color: #e73827;
+ font-size: 12px;
+
+
+}
+#linkf{
+	margin-top: 50px;
+	display: inline-block;
+	float: left;
+	z-index: 5;
+	position: absolute;
+	margin-left: 530px;
+	color: white;
+	font-family: school;
+}
+#lebron{
+	float: right;
+	margin-top: -180px;
+	
+	
+	
+	
+}
+#ico1 a img{
+	padding: 5px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+#ico2 a img{
+	padding: 15px;
+	float: right;
+	margin-top: 20px;
+	
+}
+/* Contenido */
+#contenido div{
+	width: 800px;
+	height: 50px;
+	
+	float: left;
+}
+#contenido h2{
+	display: inline;
+	font-size: 48px;
+	color: #e73827;
+	
+}
+#contenido h3{
+	color: #F6E206;
+}
+
+/* Contenido / grilla */
+
+#grilla{
+	margin-left: 233px;
+	float: left;
+	width: 1000px;	
+}
+#grilla table{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+#grilla table td:first-child{
+	width: 200px;
+}
+#grilla table td:nth-of-type(3){
+	padding: 10px;
+	width: 280px;
+}
+#grilla table td:nth-of-type(4){
+	font-weight: bold;
+	color: #4592a5;
+	font-size: 16px;
+	
+}
+#grilla table tr:nth-of-type(1){
+	border: none;
+}
+#grilla table tr{
+	border: 3px solid #f2f2f2;
+	transition: 1s;
+}
+#grilla tr:hover{
+	border-right: 3px solid #e73827;
+}
+#grilla-r{
+	float: right !important;
+	margin-right: 20px;
+	width: 200px !important;
+}
+#grilla-r img{
+	margin-top: 60px;
+}
+#grilla-l ul{
+	padding:  0px 20px;
+	width: 190px;
+	margin-top: 120px;
+	margin-left: -40px;
+}
+#grilla-l ul li{
+	font-family: school;
+	font-size: 16px;
+	background: #e73827;
+	color: white;
+	padding: 10px;
+	margin-top: 30px;
+	list-style: none;
+	width: 180px;
+}
+#grilla-l ul li:nth-child(odd){
+	 width: 0;
+     height: 0;
+     background: transparent;
+     border-right: 20px solid #9b251a;
+     border-top: 10px solid transparent;
+     border-bottom: 10px solid transparent;
+     margin-left: -20px;
+     margin-bottom: -60px;
+	 }
+#grilla-l ul li a{
+	text-decoration: none;
+	color: white;
+	transition: 0.5s;
+}
+#grilla-l ul li a:hover{
+	color:#F6E206;
+}
+/*scrollbar*/
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4); 
+}
+
+/* Clases */
+.div-m{
+    position: fixed; 
+    z-index: 100; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+.div-mc{
+	background-color: #fefefe;
+    margin: 8% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+    height: 70%;
+}
+.div-1{
+	width: 100%;
+	height: 50px;
+	margin: 0px auto;
+}
+.div-2{
+	width: 50%;
+	height: 400px;
+	background: red;
+	float: left;
+}
+.div-3{
+	width: 50%;
+	height: 400px;
+	background: blue;
+	float: right;
+}
+.spanC{
+	color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.spanC:hover{
+	color: #e73827;
+}
+.h3M{
+	color: #e73827;
+	font-size: 26px;
+	margin-top: 0px;
+}
+.ul-img-item{
+	width: 100px;
+	height: 100px;
+	background: green;
+}
